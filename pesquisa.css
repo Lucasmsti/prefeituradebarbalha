@@ -391,12 +391,13 @@ footer span {
     }
 
     main .div-input .tittle {
-        font-size: 1.2em;
+        font-size: 0.8em;
         font-family: 'inter';
         font-weight: 900;
     }
 
     main .div-input p {
+        font-size: 0.6em;
         font-weight: 300;
         text-align: center;
     }
