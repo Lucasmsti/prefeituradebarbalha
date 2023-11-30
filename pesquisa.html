@@ -4,11 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pesquisa</title>
+  <link rel="stylesheet" href="pesquisa.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="index.css">
-
-  <title>Home</title>
 </head>
 
 <body>
@@ -227,88 +226,31 @@
     </nav>
   </header>
   <main>
-    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/demutran.png" class="d-block w-100" alt="Informações sobre whatsapp demutran">
-        </div>
-        <div class="carousel-item">
-          <img src="images/processo_seletivo.png" class="d-block w-100" alt="Processo seletivo simplificado">
-        </div>
-        <div class="carousel-item">
-          <img src="images/processo_seletivo2.png" class="d-block w-100" alt="Processo seletivo simplificado">
-        </div>
+    <div class="pesquisa-div">
+      <div class="pesquisa-conteudo">
+        <button>Pesquisa avançada</button>
+        <h1>Bem-vindo a nossa busca avançada no site.</h1>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
-
-    <div class="noticias">
-      <div class="noticia-recente">
+    <div class="div-section">
+      <section>
         <div>
-          <a href="#">
-            <img src="images/noticia_1.png" alt="Primeira notícia">
-          </a>
+          <nav class="nav-pesq">
+            <a href="#" class="inicio">Início</a>
+            <p style="color: #b5b5b5;">/</p>
+            <a href="#" style="color: #b5b5b5;">Pesquisa avançada</a>
+          </nav>
         </div>
-        <div class="info-noticia1">
-          <h5 class="hover-h5">Seinfra inicia obras de pavimentação nas Ruas José
-            Livino Filho e Minerva Dias</h5>
-          <p>20/11/2023</p>
-          <p>A fase final da obra de drenagem na Rua José Livino e Minerva Dias iniciou. A
-            empreitada executada pela Secretaria...</p>
+        <div class="div-input">
+          <h1>O que você está procurando?</h1>
+          <input type="text" placeholder="Digite aqui sua consulta">
+          <button>Pesquisar</button>
+          <p class="tittle">A pesquisa será realizada levando em consideração as seguintes categorias:</p>
+          <p>Canais de atendimento, Institucional, Comunicação, Informações municipais, Lei de acesso à informação, Lei
+            de responsabilidade fiscal, Transparência e Serviços.</p>
         </div>
-      </div>
-      <div class="outras-noticias">
-        <div class="outras-noticias2">
-          <div class="main-noticia2">
-            <div class="noticia2-conteudo">
-              <a href="#">
-                <img class="estilo-img2" src="images/noticia_2.png" alt="Primeira notícia">
-              </a>
-            </div>
-            <div class="info-noticia2">
-              <h5 class="hover-h5">Prefeitura Municipal de Barbalha inicia
-                campanha de ’16 Dias de Ativismo pelo Fim da Violência contra as Mulheres’</h5>
-              <p>20/11/2023</p>
-              <p>A Prefeitura Municipal de Barbalha, através da Secretaria do Trabalho,
-                Desenvolvimento Social, Mulheres e Direitos Humanos (STDSMDH) e do Centro...</p>
-            </div>
-          </div>
-          <div class="main-noticia3">
-            <div class="noticia3-conteudo">
-              <a href="#">
-                <img class="estilo-img3" src="images/noticia_3.png" alt="Primeira notícia">
-              </a>
-            </div>
-            <div class="info-noticia3">
-              <h5 class="hover-h5">Futebol Barbalhense conhece campeões da 1ª e 2ª
-                Divisão Municipal</h5>
-              <p>20/11/2023</p>
-              <p>A Prefeitura Municipal de Barbalha, através da Secretaria de Juventude e Esportes
-                (SEJUVE), e em parceria com a Liga Desportiva...</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      </section>
     </div>
-    <div class="btn-noticias">
-      <button>Ver mais notícias</button>
-    </div>
-    <nav class="navbar navbar-servicos">
-      <div class="container-lg">
-        <a href="#" class="hover-a">Portal da transparência</a>
-        <a href="#" class="hover-a">Nota fiscal eletrônica</a>
-        <a href="#" class="hover-a">Guia de investimentos</a>
-        <a href="#" class="hover-a">Portal do servidor</a>
-        <a href="#" class="hover-a">Todos os serviços</a>
-      </div>
-    </nav>
     <nav>
       <a href="https://www.google.com.br/maps/place/Prefeitura+Municipal+de+Barbalha/@-7.3905055,-39.3332511,12.25z/data=!4m6!3m5!1s0x7a177c7ab51b05d:0xb9fae147ff3f7cbf!8m2!3d-7.2986097!4d-39.3024329!16s%2Fg%2F1pv15_y81?entry=ttu"
         target="_blank">
@@ -366,20 +308,9 @@
 
 
 
-
-
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
-
-  <!-- Temporizador do carrossel -->
-  <script>
-    let myCarousel = new bootstrap.Carousel(document.getElementById('carouselExample'), {
-      interval: 4000
-    });
-  </script>
 </body>
 
 </html>

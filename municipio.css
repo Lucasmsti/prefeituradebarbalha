@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'inter';
+    src: url(fonts/inter.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'jockeyone';
+    src: url(fonts/jockeyone.ttf) format('truetype');
+}
+
+li {
+    list-style: none;
+}
+
+/* Header */
+
+header {
+    font-family: 'jockeyone';
+    font-size: 1.3em;
+}
+
+header .main-nav-bar div img {
+    height: 1.5em;
+}
+
+header .main-nav-bar {
+    background-color: #00BF63;
+    height: 60px;
+}
+
+header nav div a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+header .nav-bar-logo {
+    background-image: url(images/fundo.jpg);
+    height: 200px;
+}
+
+header .nav-bar-logo .pref {
+    font-size: 20px;
+}
+
+header .nav-bar-logo .barb,
+header .nav-bar-logo .pref {
+    color: #ffff;
+}
+
+header .nav-bar-logo img {
+    width: 10em;
+    height: 10em;
+}
+
+header .nav-bar-logo div button {
+    background-color: #00BF63;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+}
+
+header .nav-bar-logo div button:hover {
+    background-color: #058347;
+}
+
+header .menu-nav-bar {
+    background-color: #00BF63;
+    height: 60px;
+}
+
+.hover-a:hover {
+    background-color: #058347;
+}
+
+.hover-a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+header .menu-nav-bar .menu-mobile {
+    display: none;
+}
+
+header .menu-nav-bar ul .sub-menu:hover {
+    background-color: #4EECA1;
+}
+
+header nav .dropdown-menu {
+    text-align: left;
+    background-color: #058347;
+    color: #ffff;
+    border: none;
+    width: 180px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+    /* Header  */
+
+    header p {
+        display: none;
+    }
+
+    header .main-nav-bar div img {
+        height: 1em;
+    }
+
+    header .nav-bar-logo {
+        height: 150px;
+    }
+
+    header .nav-bar-logo img {
+        position: relative;
+        bottom: 20px;
+        height: 175px;
+        width: 160px;
+    }
+
+    header .nav-bar-logo h1 {
+        position: relative;
+        top: 20px;
+    }
+
+    header .nav-bar-logo button {
+        display: none;
+    }
+
+    header .menu-nav-bar {
+        height: 45px;
+    }
+
+    header .menu-nav-bar .display-oculto {
+        display: none;
+    }
+
+    header .menu-nav-bar .menu-mobile {
+        display: block;
+        position: relative;
+        left: 45%;
+        margin-top: 5px;
+        font-size: 15px;
+    }
+}
