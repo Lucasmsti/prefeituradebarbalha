@@ -264,6 +264,7 @@ footer span {
     .btn-config {
         height: 8vh;
         width: 50vw;
+        font-size: 1em;
     }
 
     /* Footer */
