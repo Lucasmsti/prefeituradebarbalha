@@ -2,62 +2,149 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Município</title>
-    <link rel="stylesheet" href="municipio.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Município</title>
+  <link rel="stylesheet" href="municipio.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar main-nav-bar">
-          <div class="container d-flex justify-content-around">
-            <a href="#" class="hover-a d-flex gap-1 img-fluid">
-              <img src="images/contraste.png" alt="logo contraste">
-              <p>Contraste</p>
-            </a>
-            <a href="#" class="hover-a d-flex gap-1">
-              <img src="images/mais.png" alt="logo aumentar">
-              <p>Aumentar</p>
-            </a>
-            <a href="#" class="hover-a d-flex gap-1">
-              <img src="images/botao-de-menos.png" alt="logo diminuir">
-              <p>Diminuir</p>
-            </a>
-            <a href="#" class="hover-a d-flex gap-1">
-              <img src="images/mapa.png" alt="logo mapa do site">
-              <p>Mapa do site</p>
-            </a>
-            <a href="#" class="hover-a d-flex gap-1">
-              <img src="images/mao-mostrando-o-contorno-da-palma.png" alt="logo libras">
-              <p>Libras</p>
-            </a>
-            <a href="#" class="hover-a d-flex gap-1 ">
-              <img src="images/acessibilidade.png" alt="logo acessibilidade">
-              <p>Acessibilidade</p>
-            </a>
-          </div>
-        </nav>
-        <nav class="navbar nav-bar-logo">
-          <div class="container">
-            <div class="logo-container d-flex">
-              <img src="images/logo.png" alt="Logo da cidade de barbalha">
-              <h1><span class="pref">Prefeitura de</span> <br> <span class="barb">Barbalha</span></h1>
-            </div>
-            <div class="d-flex gap-2">
-              <button class="button-fale p-2" type="button">Fale conosco</button>
-              <button class="button-pesquisa p-2" type="button"><a href="pesquisa.html">Pesquisa</a></button>
-            </div>
-          </div>
-        </nav>
-        <nav class="navbar menu-nav-bar">
-          <ul class="container-lg d-flex justify-content-around gap-2">
-            <li class="display-oculto">
+  <header>
+    <nav class="navbar main-nav-bar">
+      <div class="container d-flex justify-content-around">
+        <a href="#" class="hover-a d-flex gap-1 img-fluid">
+          <img src="images/contraste.png" alt="logo contraste">
+          <p>Contraste</p>
+        </a>
+        <a href="#" class="hover-a d-flex gap-1">
+          <img src="images/mais.png" alt="logo aumentar">
+          <p>Aumentar</p>
+        </a>
+        <a href="#" class="hover-a d-flex gap-1">
+          <img src="images/botao-de-menos.png" alt="logo diminuir">
+          <p>Diminuir</p>
+        </a>
+        <a href="#" class="hover-a d-flex gap-1">
+          <img src="images/mapa.png" alt="logo mapa do site">
+          <p>Mapa do site</p>
+        </a>
+        <a href="#" class="hover-a d-flex gap-1">
+          <img src="images/mao-mostrando-o-contorno-da-palma.png" alt="logo libras">
+          <p>Libras</p>
+        </a>
+        <a href="#" class="hover-a d-flex gap-1 ">
+          <img src="images/acessibilidade.png" alt="logo acessibilidade">
+          <p>Acessibilidade</p>
+        </a>
+      </div>
+    </nav>
+    <nav class="navbar nav-bar-logo">
+      <div class="container">
+        <div class="logo-container d-flex">
+          <img src="images/logo.png" alt="Logo da cidade de barbalha">
+          <h1><span class="pref">Prefeitura de</span> <br> <span class="barb">Barbalha</span></h1>
+        </div>
+        <div class="d-flex gap-2">
+          <button class="button-fale p-2" type="button">Fale conosco</button>
+          <button class="button-pesquisa p-2" type="button"><a href="pesquisa.html">Pesquisa</a></button>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar menu-nav-bar">
+      <ul class="container-lg d-flex justify-content-around gap-2">
+        <li class="display-oculto">
+          <a href="#" class="hover-a">Home</a>
+        </li>
+        <li class="dropdown display-oculto">
+          <a href="#" class="prefeitura dropdown-toggle hover-a" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Prefeitura
+          </a>
+          <ul class="dropdown-menu" style="overflow: auto; max-height: 300px; min-width: 130px;">
+            <li>
+              <a class="sub-menu" href="#">Institucional</a>
+            </li>
+            <li>
+              <a class="sub-menu" href="#">Prefeito e vice</a>
+            </li>
+            <li>
+              <a class="sub-menu" href="#">Equipe de governo</a>
+            </li>
+            <li>
+              <a class="sub-menu" href="#">Agenda municipal</a>
+            </li>
+            <li>
+              <a class="sub-menu" href="#">Galeria de gestores</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown display-oculto">
+          <a href="#" class="prefeitura dropdown-toggle hover-a" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Município
+          </a>
+          <ul class="dropdown-menu" style="overflow: auto; max-height: 300px; min-width: 140px;">
+            <li>
+              <a class="sub-menu" href="#">Dados do município</a>
+            </li>
+            <li>
+              <a class="sub-menu" href="#">Símbolos</a>
+            </li>
+            <li>
+              <a class="sub-menu" href="#">Pontos turísticos</a>
+            </li>
+            <li>
+              <a class="sub-menu" href="#">Conselhos</a>
+            </li>
+          </ul>
+        </li>
+        <li class="display-oculto">
+          <a href="#" class="hover-a">Institucional</a>
+        </li>
+        <li class="display-oculto">
+          <a href="#" class="hover-a">Notícias</a>
+        </li>
+        <li class="display-oculto">
+          <a href="#" class="hover-a">Serviços tributários</a>
+        </li>
+        <li class="display-oculto">
+          <a href="#" class="hover-a">Servidor</a>
+        </li>
+        <li class="display-oculto">
+          <a href="#" class="hover-a">Transparência</a>
+        </li>
+        <li class="dropdown display-oculto">
+          <a href="#" class="prefeitura dropdown-toggle hover-a" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Publicações
+          </a>
+          <ul class="dropdown-menu" style="overflow: auto; max-height: 300px; min-width: 100px;">
+            <li>
+              <a class="sub-menu" href="#">Diário oficial</a>
+            </li>
+            <li>
+              <a class="sub-menu" href="#">Editais</a>
+            </li>
+            <li>
+              <a class="sub-menu" href="#">Contas detalhadas</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown menu-mobile">
+          <a href="#" class="prefeitura dropdown-toggle hover-a" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Menu
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" style="overflow: auto; max-height: 300px; min-width: 100px;">
+            <li>
               <a href="#" class="hover-a">Home</a>
             </li>
-            <li class="dropdown display-oculto">
+            <li>
+              <a href="#" class="hover-a">Pesquisa</a>
+            </li>
+            <li class="dropdown">
               <a href="#" class="prefeitura dropdown-toggle hover-a" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Prefeitura
@@ -80,7 +167,7 @@
                 </li>
               </ul>
             </li>
-            <li class="dropdown display-oculto">
+            <li class="dropdown">
               <a href="#" class="prefeitura dropdown-toggle hover-a" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Município
@@ -100,22 +187,22 @@
                 </li>
               </ul>
             </li>
-            <li class="display-oculto">
+            <li>
               <a href="#" class="hover-a">Institucional</a>
             </li>
-            <li class="display-oculto">
+            <li>
               <a href="#" class="hover-a">Notícias</a>
             </li>
-            <li class="display-oculto">
+            <li>
               <a href="#" class="hover-a">Serviços tributários</a>
             </li>
-            <li class="display-oculto">
+            <li>
               <a href="#" class="hover-a">Servidor</a>
             </li>
-            <li class="display-oculto">
+            <li>
               <a href="#" class="hover-a">Transparência</a>
             </li>
-            <li class="dropdown display-oculto">
+            <li class="dropdown">
               <a href="#" class="prefeitura dropdown-toggle hover-a" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Publicações
@@ -132,109 +219,128 @@
                 </li>
               </ul>
             </li>
-            <li class="dropdown menu-mobile">
-              <a href="#" class="prefeitura dropdown-toggle hover-a" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Menu
-              </a>
-              <ul class="dropdown-menu dropdown-menu-end" style="overflow: auto; max-height: 300px; min-width: 100px;">
-                <li>
-                  <a href="#" class="hover-a">Home</a>
-                </li>
-                <li>
-                  <a href="#" class="hover-a">Pesquisa</a>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="prefeitura dropdown-toggle hover-a" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Prefeitura
-                  </a>
-                  <ul class="dropdown-menu" style="overflow: auto; max-height: 300px; min-width: 130px;">
-                    <li>
-                      <a class="sub-menu" href="#">Institucional</a>
-                    </li>
-                    <li>
-                      <a class="sub-menu" href="#">Prefeito e vice</a>
-                    </li>
-                    <li>
-                      <a class="sub-menu" href="#">Equipe de governo</a>
-                    </li>
-                    <li>
-                      <a class="sub-menu" href="#">Agenda municipal</a>
-                    </li>
-                    <li>
-                      <a class="sub-menu" href="#">Galeria de gestores</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="prefeitura dropdown-toggle hover-a" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Município
-                  </a>
-                  <ul class="dropdown-menu" style="overflow: auto; max-height: 300px; min-width: 140px;">
-                    <li>
-                      <a class="sub-menu" href="#">Dados do município</a>
-                    </li>
-                    <li>
-                      <a class="sub-menu" href="#">Símbolos</a>
-                    </li>
-                    <li>
-                      <a class="sub-menu" href="#">Pontos turísticos</a>
-                    </li>
-                    <li>
-                      <a class="sub-menu" href="#">Conselhos</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#" class="hover-a">Institucional</a>
-                </li>
-                <li>
-                  <a href="#" class="hover-a">Notícias</a>
-                </li>
-                <li>
-                  <a href="#" class="hover-a">Serviços tributários</a>
-                </li>
-                <li>
-                  <a href="#" class="hover-a">Servidor</a>
-                </li>
-                <li>
-                  <a href="#" class="hover-a">Transparência</a>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="prefeitura dropdown-toggle hover-a" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Publicações
-                  </a>
-                  <ul class="dropdown-menu" style="overflow: auto; max-height: 300px; min-width: 100px;">
-                    <li>
-                      <a class="sub-menu" href="#">Diário oficial</a>
-                    </li>
-                    <li>
-                      <a class="sub-menu" href="#">Editais</a>
-                    </li>
-                    <li>
-                      <a class="sub-menu" href="#">Contas detalhadas</a>
-                    </li>
-                  </ul>
-                </li>
-            </li>
-          </ul>
-          </li>
-          </ul>
-        </nav>
-      </header>
+        </li>
+      </ul>
+      </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container-fluid">
+    <div class="main-container">
+      <div class="fotos">
+        <div>
+          <img class="img1" src="images/historia1.png" alt="">
+        </div>
+        <div class="div-imgs2">
+          <img class="img2" src="images/historia2.png" alt="">
+          <img class="img3" src="images/historia3.png" alt="">
+        </div>
+      </div>
+      <div class="container textos">
+        <h1>HISTÓRIA</h1>
+        <p>Aludindo à Barbalha, comentava João Brígida em 1865: ‘com vinte anos de existência não tem um graveto com que
+          acender o lume, nem uma gota d’água com que molhar a guela. E não está situada nos pampas da Cisplatina. É que
+          o solo tem o seu dono, que reserva as matas para o seu uso, a água corre em delgados fios e tem o seu
+          senhorio. Quem de uma e outra cousa precisa, vai mendigar. Foi triste lembrança criar uma vila em terrenos que
+          pertencem a particulares”.Nascida realmente em terrenos particulares, sob o signo de uma verdadeira
+          prosperidade econômica, dentro da qual se desenvolveu uma sociedade laboriosa, afortunada e nobre, a cidade de
+          Barbalha originou-se nas terras do capitão Francisco Magalhães Barreto e Sá, casado com D. Maria Polucena de
+          Abreu Lima, sergipana, em Vila Nova, o qual, obtendo licença do visitador Manuel Antônio da Rocha, em 5 de
+          março de 1778, erigiu uma capela sob a invocação de Santo Antônio, dando-lhe o patrimônio de meia légua de
+          terras e gados, cujo templo foi sagrado pelo padre.</p>
+        <h1>FORMAÇÃO ADMINISTRATIVA</h1>
+        <p>Distrito criado com a denominação de Barbalha pela Lei Provincial n.º 130, de 30-08-1838, subordinado ao
+          município de Castro.
+          Elevado à condição de cidade com a denominação de Barbalha pela Lei Provincial n.º 374, de 30-08-1846, sendo
+          desmembrado de Crato. Sede no atual distrito de Barbalha. Constituído do distrito sede.
+          Elevado à condição de cidade com a denominação de Barbalha pela Lei Provincial n.º 1.740, de 30-08-1876.Pelo
+          Ato Estadual de 15-07-1904 é criado o distrito de Cajazeiras e anexado ao município de Barbalha.
+          Em divisão administrativa referente ao ano de 1911 o município é constituído de 2 distritos: Barbalha e
+          Cajazeiras.
+          Em divisão administrativa referente ao ano de 1933 o município aparece constituído de 3 distritos: Barbalha,
+          Cajazeiro e Saco. Assim permanecendo em divisão territorial datada de 31-XII-1936.
+          Pela Lei Estadual n.º 352, de 02-09-1937, o distrito de Saco é extinto. Sendo seu território anexado ao
+          distrito sede do município de Barbalha.
+          Em divisão territorial datada de 31-XII-1937, o município é constituído de 2 distritos: Barbalha e Cajazeiras.
+          Pelo Decreto Estadual n.º 448, de 20-12-1938, o distrito de Cajazeiras passou a denominar-se Farias.
+          No quadro fixado para vigorar no período de 1939 a 1943 o município é constituído de Barbalha e Farias.
+          Pelo Decreto-lei Estadual n.º 1.114, de 30-12-1943, o distrito de Farias passou a denominar-se Arajara.
+          Em divisão territorial datada de 1-VII-1950 o município é constituído de Barbalha e Arajara. Assim
+          permanecendo em divisão territorial datada de 1-VII-1960.
+          Pela Lei Estadual n.º 6.728, de 05-11-1963, foi desmembrado do município de Barbalha o distrito de Arajara,
+          elevado à categoria de município.
+          Em divisão territorial datada de 31-XII-1963, o município é constituído do distrito sede.
+          Pela Lei Estadual n.º 8.339, de 14-12-1965, Barbalha adquiriu o extinto município de Arajara, figurando como
+          simples distrito.Em divisão territorial datada de 31-XII-1968 o município é constituído de 2 distritos:
+          Barbalha e Arajara. Assim permanecendo em divisão territorial datada de 1988.
+          Pela Lei Municipal n.º 1.147, 23-04-1991, é criado o distrito de Estrela e anexado ao município de Barbalha.
+          Em territorial datada de 1995 o município é constituído de 3 distritos: Barbalha, Arajara e Estrela. Assim
+          permanecendo em divisão territorial datada de 2001.
+          Pela Lei Municipal n.º 1.499, de 28-02-2002, é criado o distrito de Caldas e anexado ao município de Barbalha.
+          Em divisão territorial datada de 2005 o município é constituído de 4 distritos: Barbalha, Arajara, Caldas e
+          Estrela. Assim permanecendo em divisão territorial datada de 2014.Nascida realmente em terrenos particulares,
+          sob o signo de uma verdadeira prosperidade econômica, dentro da qual se desenvolveu uma sociedade laboriosa,
+          afortunada e nobre, a cidade de Barbalha originou-se nas terras do capitão Francisco Magalhães Barreto e Sá,
+          casado com D. Maria Polucena de Abreu Lima, sergipana, em Vila Nova, o qual, obtendo licença do visitador
+          Manuel Antônio da Rocha, em 5 de março de 1778, erigiu uma capela sob a invocação de Santo Antônio, dando-lhe
+          o patrimônio de meia légua de terras e gados, cujo templo foi sagrado pelo padre.</p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="contatos">
+      <h1>Contatos</h1>
+    </div>
+    <div class="btn-contatos">
+      <div class="facebook">
+        <a href="#">
+          <img src="images/facebook.png" alt="logo facebook">
+          <p>
+            <span>/prefeituradebarbalha</span>
+            <br>
+            Curta nossa página no facebook
+          </p>
+        </a>
+      </div>
+      <div class="ouvidoria">
+        <a href="#">
+          <img src="images/e-mail.png" alt="logo email">
+          <p>
+            <span>ouvidoria@barbalha.ce.gov.br</span>
+            <br>
+            Fale com a ouvidoria
+          </p>
+        </a>
+      </div>
+      <div class="localizacao">
+        <a href="#">
+          <img src="images/pin-de-localizacao.png" alt="logo localização">
+          <p><span>Centro Administrativo José de Sá Barreto</span><br>Av. Luís Gonzaga De Miranda, S/N, Jardim dos Ipês
+            Barbalha - CE</p>
+        </a>
+      </div>
+      <div class="instagram">
+        <a href="#">
+          <img src="images/instagram.png" alt="logo instagrem">
+          <p><span>@prefeituradebarbalha</span><br>Siga-nos no Instagram</p>
+        </a>
+      </div>
+      <div class="telefone">
+        <a href="#">
+          <img src="images/telefone.png" alt="logo telefone">
+          <p><span>(88)3532-2459</span><br>Telefone</p>
+        </a>
+      </div>
+    </div>
+  </footer>
 
 
 
 
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

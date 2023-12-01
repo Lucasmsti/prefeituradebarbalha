@@ -95,9 +95,130 @@ header nav .dropdown-menu {
     border-radius: 5px;
 }
 
+/* Main  */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+main .main-container {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80vw;
+}
+
+main .fotos {
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+    gap: 10px;
+    width: 40%;
+}
+
+main .fotos .div-imgs2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+main .fotos .img1{
+    height: 31.2vh;
+    width: 10vw;
+}
+
+main .fotos .img2, 
+main .fotos .img3 {
+    height: 15vh;
+    width: 10vw;
+}
+
+main .textos {
+    width: 60%;
+}
+
+main .textos h1 {
+    font-family: 'jockeyone';
+    font-size: 2.4em;
+
+}
+
+main .textos p {
+    font-family: 'inter';
+    font-size: 0.8em;
+    max-height: 100%;
+}
+
+/* Footer  */
+
+footer {
+    height: 200px;
+    background-color: #00BF63;
+    max-width: 100%;
+}
+
+footer p {
+    color: #ffff;
+}
+
+footer a {
+    text-decoration: none;
+}
 
 
+footer div h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    color: #ffff;
+}
 
+footer div h1 {
+    font-family: 'jockeyone';
+    font-size: 2.5em;
+}
+
+footer .btn-contatos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-family: 'inter';
+    font-size: 1em;
+}
+
+footer .btn-contatos .facebook a,
+footer .btn-contatos .ouvidoria a,
+footer .btn-contatos .localizacao a,
+footer .btn-contatos .instagram a,
+footer .btn-contatos .telefone a {
+    display: flex;
+    gap: 25px;
+}
+
+footer .btn-contatos .facebook img,
+footer .btn-contatos .ouvidoria img,
+footer .btn-contatos .localizacao img,
+footer .btn-contatos .instagram img,
+footer .btn-contatos .telefone img {
+    height: 50px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #058347;
+}
+
+footer p:hover {
+    color: #058347;
+}
+
+footer span {
+    font-weight: 400;
+}
 
 @media only screen and (max-width: 480px) {
 
@@ -145,5 +266,66 @@ header nav .dropdown-menu {
         left: 45%;
         margin-top: 5px;
         font-size: 15px;
+    }
+
+    /* Main  */
+
+    main .main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .fotos {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    main .fotos .img1{
+        height: 31.2vh;
+        width: 37vw;
+    }
+    
+    main .fotos .img2, 
+    main .fotos .img3 {
+        height: 15vh;
+        width: 37vw;
+    }
+
+    main .textos {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    main .textos h1 {
+        text-align: center;
+    }
+
+    /* Footer */
+
+    footer {
+        height: auto;
+    }
+
+    footer .contatos {
+        display: none;
+    }
+
+    footer .btn-contatos {
+        background-color: #058347;
+        padding: 10px;
+        margin-top: 0px;
+    }
+
+    footer .btn-contatos p {
+        display: none;
+    }
+
+    footer .btn-contatos .facebook img,
+    footer .btn-contatos .ouvidoria img,
+    footer .btn-contatos .localizacao img,
+    footer .btn-contatos .instagram img,
+    footer .btn-contatos .telefone img {
+        height: 1.8em;
     }
 }
