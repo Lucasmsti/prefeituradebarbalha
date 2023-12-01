@@ -255,6 +255,10 @@ footer span {
 
     /* Main  */
 
+    main section {
+        margin-left: 35px;
+    }
+
     .container-buttons1, .container-buttons2 {
         display: grid;
         grid-template-columns: 1fr;
