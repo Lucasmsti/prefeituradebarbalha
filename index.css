@@ -349,11 +349,15 @@ footer span {
     }
 
     main .noticias {
-        height: 200vh;
+        height: 180vh;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    main .noticias .noticia-recente {
+        height: 60vh;
     }
 
     main .noticias .noticia-recente,
